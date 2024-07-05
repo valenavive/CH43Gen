@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-HTML</title>
+</head>
+
+<body>
+    <!--Esta es una etiqueta-->
+    <h1>01 - Introducción a HTML</h1>
+    <h2>Generation México</h2>
+    <h3>Cohorte 43</h3>
+    <h4>Instructores y Mentores</h4>
+    <h5>Participantes</h5>
+    <h6>Julio 2024</h6>
+
+    <!--Etiqueta de párrafo (p)-->
+    <p>Parrafo de Dani</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus porro tempora quidem laudantium soluta quod
+        molestiae perspiciatis, quasi dolorem, magnam autem sunt accusantium illo nostrum ratione earum quae neque
+        delectus!</p>
+
+    <!--Elemento de línea de separación-->
+    <hr>
+
+    <!--Elemento para realizar un salto de línea-->
+    <br>
+
+    <!-- Etiqueta de imagen solo es de apertura, debe ir acompañado de atributos que nos permiten establecer propiedades-->
+    <h2>Etiqueta de imagen</h2>
+    <img src="https://pbs.twimg.com/profile_images/917481867976331264/uy_YTm-i_400x400.jpg"
+        alt="logo rosa de genmx alternativo">
+
+    <br>
+
+    <img src="./assets/gen_mex_.jpg" alt="logo rosa de genmex relativo" width="150px">
+
+    <!--Etiquetas para formato de texto (b) bold, -->
+    <p><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. Rem vitae officiis doloremque sed cum
+        cumque eaque <b>magnam perspiciatis accusamus</b> alias vero illum est veritatis quaerat reiciendis, aperiam
+        dolorum dolorem magni.</p>
+
+    <!--Etiqueta anchor <a></a>, nos permite crear hipervinculos desde cualquier elemento HTML-->
+    <h2>Etiqueta de anclaje</h2>
+
+    <a href="#" target="_blank">Este es un enlance</a>
+
+    <hr>
+
+    <!--Etiqueta de lista. Podemos tener dos tipos de lista, ordenada y desordenada.
+    Cada tipo de lista necesita items que viven dentro de ellas.
+    <ul></ul> lista desordanda (viñetas sin jerarquía)
+    <ol></ol> lista ordenada (viñetas con jerarquía)
+    <li></li> item de lista
+    -->
+    <h2>Etiquetas de lista <code>&lt;p&gt;&lt;/p&gt;</code></h2>
+    <h2>Etiquetas de lista &lt;p&gt;&lt;/p&gt;</h2>
+    <ul>Productos
+        <li>Tomates</li>
+        <li>Cebollas</li>
+        <li>Limones</li>
+    </ul>
+
+    <ol>Comida favoritas 
+        <li>Gringa de pastor</li>
+        <li>Sincronizada</li>
+        <li>Picaña</li>
+    </ol>
+
+    <ol type="a">
+        <li>Sección A</li>
+        <li>Sección B</li>
+        <li>Sección C</li>
+    </ol>
+
+    <p>Menú de taquería</p>
+    <ol type="I">
+        <li>Tacos
+            <ul>
+                <li>
+                    <a href="https://www.comedera.com/wp-content/uploads/2017/08/tacos-al-pastor-receta.jpg" target="_blank">Pastor</a>
+                </li>
+                <li>
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz65jiYC_T7uKSOAhVnD6sxq7ksf3-SohkeA&s" target="_blank">Sirlion</a>
+                </li>
+                <li>
+                    <a href="https://alabio.mx/imagenes/tacos-asada-eventos-puebla-2371.jpg" target="_blank">   Asada</a>
+                </li>
+            </ul>
+        </li>
+        <li>Gringas
+            <ol>
+                <li>Pastor</li>
+                <li>Combinada</li>
+                <li>Longaniza</li>
+            </ol>
+        </li>
+        <li>Tortas
+            <ul>
+                <li>Pastor con queso</li>
+            </ul>
+        </li>
+        <li>Especialidades</li>
+        <li>Bebidas</li>
+    </ol>
+
+    <hr>
+
+    <!--Etiquetas div y span
+    - div → etiqueta divisora que permite contener otros elementos sin afectarlos directamente. Podemos anidar todos los divs que queramos.
+    - span → Etiqueta divisora en línea que permite rodear elemento dentro de una etiqueta. Tambien lo podemos usar como elemento que no tiene un formato específico-->
+
+
+    <h2>Etiquetas div y span</h2>
+    <div>
+        <p>Primer párrafo</p>
+        <div>
+            <p>Párrafo anidado en el <span>div 1</span></p>
+            <p>Párrafo anidado en el div 2</p>
+        </div>
+    </div>
+
+    <p>Segundo párrafo</p>
+    <span>Tercer párrafo</span>
+    <span>Cuarto párrafo</span>
+    <span>Quinto párrafo</span>
+</body>
+
+</html>

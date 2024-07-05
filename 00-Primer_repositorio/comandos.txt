@@ -1,0 +1,294 @@
+    1  ls
+    2  pwd
+    3  cd OneDrive/
+    4  ls
+    5  cd ..
+    6  clear
+    7  cd
+    8  ls
+    9  cd Desktop
+   10  ls
+   11  mkdir casita01
+   12  ls
+   13  cd casita01
+   14  mkdir cuarto sala cocina cochera
+   15  ls
+   16  ls cine
+   17  mkdir cine
+   18  ls
+   19  cd cine
+   20  echo 'Peliculas a ver' >> Lista peliculas.txt
+   21  ls
+   22  cd ..
+   23  ls
+   24  cd cine
+   25  ls
+   26  rm Lista
+   27  ls
+   28  echo 'Peliculas para el año 2024' >> Lista.txt
+   29  ls
+   30  cat Lista
+   31  cat Lista.txt
+   32  echo 'Holidate' >> Lista.txt
+   33  cat Lista.txt
+   34  nano Lista.txt
+   35  cat Lista.txt
+   36  cd ..
+   37  ls
+   38  cd cochera
+   39  touch Perros.csv
+   40  ls
+   41  cd..
+   42  cd ..
+   43  ls
+   44  cd cocina
+   45  echo 'Libros para cocinar 2024' >> Recetas.doc
+   46  cat Recetas.doc
+   47  echo '1. Agregar receta de pastel de chocolate' >> Recetas.doc
+   48  cd ..
+   49  ls
+   50  cd cocina
+   51  ls
+   52  cp Recetas.doc
+   53  cd ..
+   54  ls
+   55  cp cocina
+   56  ls
+   57  cd Desktop
+   58  ls
+   59  mkdir casa01
+   60  cd casa01
+   61  ls
+   62  mkidr cuarto cocina sala
+   63  mkdir sala cocina cuarto
+   64  ls
+   65  cd cocina
+   66  touch Recetas.txt
+   67  ls
+   68  echo 'Libros de la casa´>> Libros.txt
+   69  dc
+   70  end
+   71  clear
+   72  cd ..
+   73  ls
+   74  cd cuarto
+   75  ls
+   76  echo 'Libros para leer en 2024'>> Lista_libros.txt
+   77  ls
+   78  cat Lista_libros.txt
+   79  cd ..
+   80  ls
+   81  cd cocina
+   82  touch Cuadros.txt
+   83  ls
+   84  mv Cuadros.txt/sala
+   85  mv --help
+   86  mv Cuadros.txt > sala
+   87  mv Cuadros.txt // sala
+   88  cd ..
+   89  mv cocina/Cuadros.txt sala/
+   90  cd sala
+   91  ls
+   92  cp Cuadros.txt /sala/cuarto/CuadrosCuarto.txt
+   93  cd ..
+   94  ls
+   95  cp Cuadros.txt /sala/cuarto/CuadrosCuarto.txt
+   96  cp sala/Cuadros.txt/cuarto/CuadrosCuarto.txt 
+   97  cp sala/Cuadros.txt/cocina
+   98  cp -r sala
+   99  cp ..
+  100  cocina
+  101  ls
+  102  cocina
+  103  cd cocina
+  104  ls
+  105  rm sala
+  106  cd ..
+  107  ls
+  108  cp -r cocina
+  109  cp -r cocina / sala
+  110  cd ..
+  111  sala
+  112  cd sala
+  113  cd casa01
+  114  ls
+  115  cd sala
+  116  ls
+  117  cd ..
+  118  ld
+  119  ls
+  120  cp Cuadros.txt / _cuarto
+  121  cp Cuadros.txt
+  122  cp Cuadros.txt ~/cuarto
+  123  pwd
+  124  cp Cuadros.txt ~/ /c/Users/Ivana Valencia Vives/Desktop/casa01/cuarto 
+  125  cp cocina/Recetas.txt sala/
+  126  ls
+  127  cd sala
+  128  ls
+  129  ls
+  130  cd Archivos de programa
+  131  cd Datos de programa
+  132  cd Videos
+  133  cd ..
+  134  cd Cookies
+  135  ls
+  136  cd ..
+  137  cd 'Mis documentos'
+  138  ls
+  139  cd ..
+  140  cd 'Configuración local'
+  141  ls
+  142  minitab
+  143  cd Minitab
+  144  ls
+  145  cd MSS
+  146  ls
+  147  cd 21.1
+  148  cd 1.1
+  149  ls
+  150  cd WIN64
+  151  ls
+  152  cd cef_cache
+  153  ls
+  154  cd ../../../../../
+  155  cd Minitab
+  156  cd ..
+  157  ls
+  158  ls -a
+  159  cd minitab
+  160  ls
+  161  cd MSS
+  162  ls
+  163  cd 21.1
+  164  ls
+  165  cd WIN64
+  166  ls
+  167  cd cef_cache
+  168  ls
+  169  rm LOG.old
+  170  ls
+  171  rm cef_cache
+  172  cd ..
+  173  ls
+  174  rm cef_cache
+  175  rm -rf cef_cache
+  176  ls
+  177  cd ..
+  178  ls
+  179  cd ..
+  180  cd ../../
+  181  rm -rf Minitab
+  182  ls
+  183  mkdir Prueba1
+  184  ls
+  185  cd
+  186  cd ..
+  187  ls
+  188  cd ..
+  189  cd 'Ivana Valencia Vives'
+  190  ls
+  191  cd ..
+  192  ls
+  193  cd ..
+  194  ls
+  195  cd ~/Configuración local
+  196  clear
+  197  ls
+  198  ls
+  199  cd 'Configración local'
+  200  cd 'Configuración local'
+  201  ls
+  202  rm Prueba1
+  203  rm -rf Prueba1
+  204  ls
+  205  cd GRAPHISOFT
+  206  ls
+  207  cd ..
+  208  cd GRAPHISOF
+  209  cd ARCHICAD Cache Folder
+  210  cd 'ARCHICAD Cache Folder'
+  211  ls
+  212  cd GRAPHISOFT
+  213  ls
+  214  cd 'ARCHICAD Cache Folder'
+  215  ls
+  216  cd 'ARCHICAD 23.0.0 USA 
+  217  cd 'ARCHICAD 23.0.0 USA R1'
+  218  ls
+  219  cd ../../../
+  220  cd GRAPHISOFT
+  221  ls
+  222  cd 'ARCHICAD Carpeta de Caché'
+  223  ls
+  224  cd ..
+  225  cd 'ARCHICAD Data Folder'
+  226  ls
+  227  cd 'ARCHICAD 24.0.0 SPA R1'
+  228  ls
+  229  cd ..
+  230  ls
+  231  cd 'ARCHICAD 26.0.0 INT R1'
+  232  LS
+  233  ls
+  234  cd ..
+  235  cd ..
+  236  ls
+  237  cd ' CEF.cache'
+  238  cd 'CEF.cache'
+  239  ls
+  240  cd ..
+  241  ls
+  242  cd EDMDB
+  243  LS
+  244  ls
+  245  cd ..
+  246  ls
+  247  rm -rf EDMDB
+  248  ls
+  249  cd ..
+  250  rm -rf GRAPHISOFT
+  251  ls
+  252  cd ..
+  253  ls
+  254  cd 'Entorno de red'
+  255  ls
+  256  cd ..
+  257  cd 'Datos de programa'
+  258  ls
+  259  cd GRAPHISOFT
+  260  ls
+  261  cd ..
+  262  cd GRAPHISOFT
+  263  ls
+  264  rm -rf 'ARCHICAD 23.0.0 USA R1'
+  265  ls
+  266  mkdir Pruebas0001
+  267  ls
+  268  rm -rf Pruebas0001
+  269  ls
+  270  git --version
+  271
+  274 
+  275  git config --list
+  276  echo 'Primer archivo para repositorio' >> Archivo.txt
+  277  ls
+  278  git init
+  279  la -la
+  280  ls -la
+  281  pwd
+  282  git status
+  283  git add .
+  284  git status
+  285  git commit -m '() Archivo.txt - 1 line'
+  286  git status
+  287  git status
+  288  git add .
+  289  git status
+  290  git commit -m 'se agregan dos líneas al archivo'
+  291  git status
+  292  git log
+  293  git remote add origin https://github.com/valenavive/primer_CH43.git
+  294  git status
+  295  git push -u origin main
+  296  history > comandos.txt
